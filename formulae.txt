@@ -1,0 +1,16 @@
+asdf
+chunkwm
+cmake
+ctags
+docker
+m-cli
+macvim
+mutt
+neofetch
+postgresql
+skhd
+terminal-notifier
+tmux
+tmux-mem-cpu-load
+tree
+zsh

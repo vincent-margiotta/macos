@@ -1,0 +1,6 @@
+alacritty
+font-source-code-pro
+google-chrome
+slack
+vagrant
+virtualbox
