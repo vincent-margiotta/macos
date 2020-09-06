@@ -1,5 +1,4 @@
 asdf
-chunkwm
 cmake
 ctags
 docker
@@ -7,7 +6,6 @@ m-cli
 neofetch
 neomutt
 postgresql
-skhd
 stow
 terminal-notifier
 tmux
