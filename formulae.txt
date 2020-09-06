@@ -4,13 +4,13 @@ cmake
 ctags
 docker
 m-cli
-macvim
-mutt
 neofetch
+neomutt
 postgresql
 skhd
+stow
 terminal-notifier
 tmux
 tmux-mem-cpu-load
 tree
-zsh
+vim
