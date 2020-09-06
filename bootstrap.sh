@@ -110,3 +110,31 @@ OH_MY_ZSH_BOOTSTRAP_URL="https://raw.githubusercontent.com/robbyrussell/oh-my-zs
 __install_oh_my_zsh() {
   [ -d "$HOME"/.oh-my-zsh ] || $SHELL -c "$(__curl_url $OH_MY_ZSH_BOOTSTRAP_URL)"
 }
+
+
+##
+# Vim & Vundle
+
+VUNDLE_LOCAL="$HOME/.vim/bundle/Vundle.vim"
+VUNDLE_REPOSITORY="https://github.com/VundleVim/Vundle.vim.git"
+
+__check_vim() {
+  command -v vim || { echo "Dependency not found: vim"; exit 1; }
+}
+
+__VIM() {
+  command vim "$@"
+}
+
+__vim_run() {
+  ( [ -z "$*" ] && return ) || __VIM "$@"
+}
+
+__install_vundle() {
+ [ -d "$VUNDLE_LOCAL" ] || __git_clone "$VUNDLE_REPOSITORY" "$VUNDLE_LOCAL"
+}
+
+__vundle_install_plugins() {
+  __vim_run +PluginInstall +qall
+}
+
