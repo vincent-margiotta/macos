@@ -123,7 +123,7 @@ __check_vim() {
 }
 
 __VIM() {
-  command vim "$@"
+  command vim -u "$HOME/.vimrc-vundle" "$@"
 }
 
 __vim_run() {
