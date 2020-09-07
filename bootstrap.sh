@@ -53,7 +53,7 @@ __GIT() {
 }
 
 __git_clone() {
-  ( [ -z "$@" ] && return ) || __GIT clone "$@"
+  ( [ -z "$*" ] && return ) || __GIT clone "$@"
 }
 
 
