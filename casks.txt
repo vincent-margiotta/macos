@@ -1,6 +1,7 @@
 alacritty
-font-source-code-pro
 google-chrome
 slack
+spotify
 vagrant
 virtualbox
+visual-studio-code
