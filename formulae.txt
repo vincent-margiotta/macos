@@ -6,6 +6,7 @@ docker
 m-cli
 neofetch
 neomutt
+nodejs
 postgresql
 stow
 terminal-notifier
@@ -13,3 +14,4 @@ tmux
 tmux-mem-cpu-load
 tree
 vim
+yarn

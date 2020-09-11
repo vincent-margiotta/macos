@@ -5,3 +5,4 @@ spotify
 vagrant
 virtualbox
 visual-studio-code
+vlc
