@@ -7,7 +7,6 @@ fswatch
 jq
 m-cli
 neofetch
-postgresql
 shellcheck
 telnet
 terminal-notifier
