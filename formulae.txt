@@ -1,8 +1,7 @@
 asdf
 awscli
 cmake
-ctags
-docker
+emacs
 fswatch
 jq
 m-cli
@@ -10,7 +9,4 @@ neofetch
 shellcheck
 telnet
 terminal-notifier
-tmux
-tmux-mem-cpu-load
 tree
-vim

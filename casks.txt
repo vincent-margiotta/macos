@@ -1,6 +1,6 @@
 alacritty
+docker
 google-chrome
 slack
 vagrant
 virtualbox
-visual-studio-code
