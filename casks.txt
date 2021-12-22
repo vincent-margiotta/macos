@@ -1,6 +1,0 @@
-alacritty
-docker
-google-chrome
-slack
-vagrant
-virtualbox
