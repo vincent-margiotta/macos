@@ -1,0 +1,6 @@
+asdf
+pass
+telnet
+terminal-notifier
+tree
+yq

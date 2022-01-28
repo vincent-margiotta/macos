@@ -1,0 +1,4 @@
+amethyst
+docker
+google-chrome
+slack
