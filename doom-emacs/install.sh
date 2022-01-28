@@ -13,7 +13,7 @@ EMACS_DIR="$HOME/.emacs.d"
   "$HOMEBREW" install git ripgrep coreutils fd
   # Install vanilla Emacs
   "$HOMEBREW" tap railwaycat/emacsmacport
-  "$HOMEBREW" install emacs-mac --with-modules
+  "$HOMEBREW" install --cask emacs-mac
   ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
   # Install DOOM Emacs
   "$GIT" clone "$DOOM_URL" "$EMACS_DIR"

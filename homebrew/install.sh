@@ -13,19 +13,5 @@ HOMEBREW=$(command -v brew) || {
 
 
 "$HOMEBREW" update
-
-
-# install formulae
-while IFS= read -r REQUESTED; do
-  # skip comments
-  [ "$(echo "$REQUESTED" | cut -c1)" = "#" ] && continue
-  echo "Install: $REQUESTED" && "$HOMEBREW" install --force "$REQUESTED"
-done < "formulae.txt"
-
-
-# Install casks
-while IFS= read -r REQUESTED; do
-  # skip comments
-  [ "$(echo "$REQUESTED" | cut -c1)" = "#" ] && continue
-  echo "Install (cask): $REQUESTED" && "$HOMEBREW" install --force --cask "$REQUESTED"
-done < "casks.txt"
+$(command -v xargs) "$HOMEBREW" install --formulae < "formulae.txt"
+$(command -v xargs) "$HOMEBREW" install --cask < "casks.txt"
